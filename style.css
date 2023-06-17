@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #03a9f4;
+  /* background-image: url('https://img.freepik.com/free-vector/lake-with-city-buildings-skyline-rain_107791-9572.jpg?size=626&ext=jpg&uid=R100611644&ga=GA1.2.1646654206.1682429318&semt=sph');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container {
+  max-width: 1000px;
+  max-height: auto;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.headsearch {
+  width: 90%;
+  height: 50%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+  margin: 50px auto;
+  padding: 10px 0px;
+}
+.headsearch input {
+  width: 95%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 0px auto;
+}
+.headsearch label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: white;
+}
+.headsearch input[type="button"] {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  box-shadow: 2px 2px 2px 0.1px gainsboro;
+}
+input[type="button"]:hover {
+  outline: #03a9f4;
+}
+.bodydata {
+  width: 90%;
+  height: auto;
+  /* border: 2px solid purple; */
+  margin: 5px auto;
+  color: white;
+}
